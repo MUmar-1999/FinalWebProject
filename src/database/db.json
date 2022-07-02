@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "username": "Babar107",
+      "email": "babar@gmail.com",
+      "phone": "090078601",
+      "id": 1
+    },
+    {
+      "username": "Quaid e Azam",
+      "email": "uchihaboy395@gmail.com",
+      "phone": "03413432524",
+      "id": 2
+    },
+    {
+      "username": "Kalesh",
+      "email": "umer_butt999555@gmail.com",
+      "phone": "412446536",
+      "id": 3
+    },
+    {
+      "username": "Ahmed",
+      "email": "a@sixty.com",
+      "phone": "32145436",
+      "id": 4
+    },
+    {
+      "username": "sarmad",
+      "email": "fhgfjc",
+      "phone": "8769i76",
+      "id": 5
+    },
+    {
+      "username": "Ahsan",
+      "email": "abc@gb.com",
+      "phone": "090078601",
+      "id": 6
+    },
+    {
+      "username": "Umer",
+      "email": "umer.butt999555@gmail.com",
+      "phone": "213454254",
+      "id": 7
+    },
+    {
+      "username": "mursaleen",
+      "email": "azam@gb.com",
+      "phone": "03103214325",
+      "id": 8
+    },
+    {
+      "username": "sdad",
+      "email": "wra",
+      "phone": "23546",
+      "id": 9
+    }
+  ]
+}

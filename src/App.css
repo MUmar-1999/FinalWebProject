@@ -1,0 +1,355 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.Banner {
+  width: 100%;
+  height: 100vh;
+  background: url("/public/img/bg2.jpg");
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+
+.B_Content {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+.Container {
+  width: 1200px;
+  max-width: 1200px;
+  margin:  auto;
+}
+
+.Banner_text {
+  width: 500px;
+}
+
+.Banner_text h3 {
+  font-size: 30px;
+}
+
+.Banner_text h1 {
+  font-size: 70px;
+  font-weight: 800;
+  
+}
+
+.Banner_text p {
+  font-size: 20px;
+  font-weight: 400;
+  
+}
+
+.Banner_btn {
+  margin-top: 35px;
+  
+}
+
+.btn-smart {
+  background: orangered;
+  }
+
+  
+/* navbar start */
+.Navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  
+}
+
+.Navbar_text {
+  
+  background: rgba(0, 0, 0, 0.542);
+  display: flex;
+  height: 60px;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.logo {
+  width: 40%;
+  
+}
+
+.logo img {
+  width: 120px;
+  height: 60px;
+  margin-top: 8px;
+}
+
+.logo :hover
+{
+  background: green;
+  border-radius: 20px;
+}
+
+.Navbar_ul {
+  width: 60%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Navbar_ul :hover
+{
+  background: green;
+  border-radius: 20px;
+}
+
+.Navbar_ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.btn {
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: 700;
+  border-radius: 30px;
+  font-size: 15px;
+  padding: 20px 40px;
+}
+
+
+
+/* navbar start */
+
+.About {
+  padding: 80px ;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+}
+
+.col-6 {
+  width: 50%;
+  
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.About h3 {
+  color: grey;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 12px;
+
+}
+
+.p-45 {
+  padding: 45px;
+}
+
+.About h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+
+.About p {
+  font-size: 18px;
+  color: grey;
+  font-weight: 300;
+}
+
+.About_btn {
+  margin-top: 30px;
+}
+
+.About_img {
+  width: 100%;
+  
+}
+
+.About_img img {
+  width: 100%;
+}
+
+.Shop {
+  
+  height: 450px;
+  width: 100%;
+  background: url("/public/img/bg3.jpg");
+  background-attachment: fixed;
+  
+}
+
+.Shop_Text {
+  height: 450px;
+  width: 350px;
+  margin:  auto;
+  color: white;
+
+  
+}
+
+.Shop_Text h1 {
+  font-size: 40px;
+  display: flex;
+  padding-top: 150px;
+  font-weight: 800;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 1px;
+}
+
+
+.shop_btn {
+  margin-top: 35px;
+  margin-left: 90px;
+}
+
+.Prices {
+  width: 100%;
+  padding-bottom: 80px 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.Price_img {
+  width: 100%;
+
+}
+
+.Price_img img {
+  padding: 40px;
+  width: 250px;
+}
+
+.Price_heading {
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.Price_para{
+  margin-top: 15px;
+  color: grey;
+  font-size: 15px;
+  font-weight: 300;
+  justify-content: center;
+}
+
+.Price_rs {
+  font-size: 25px;
+  margin-top: 15px;
+  }
+
+  .Contact{
+  background-color: #ecf0f1;
+  padding: 60px;
+  }
+  .input-group {
+    margin-top: 20px;
+    width: 30%;
+    padding-left: 600px;
+  }
+  .btn-primary {
+    margin-top: 20px;
+    background: green;
+  }
+  
+  .nletter {
+    text-align: center;
+    padding-top: 20px;
+    color: green;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+  }
+
+  .Contact p {
+    margin-top: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  hr {
+    margin-top: 20px;
+  }
+  
+  /* #abc{
+    height: 200px;
+    width: 500px;
+  } */
+
+ 
+@media(max-width: 700px)
+{
+  .Navbar_text {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .logo{
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .Container {
+    width: 100%;
+    padding: 0 30px;
+  }
+  .Banner_text {
+    width: auto;
+  }
+  
+  .Banner_text h3 {
+    font-size: 25px;
+  }
+  
+  .Banner_text h1 {
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 600;
+    margin-top: 5px;
+  }
+  
+  .Banner_text p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 5px;
+  }
+  .col-6, .col-3{
+    width: 100%;
+    
+  }
+
+  .Navbar_ul {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .Navbar_ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+}
